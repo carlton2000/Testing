@@ -1,0 +1,417 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+#topbar{
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#logo{
+    margin-top: 8px;
+    width: 100px;
+    float: left;
+    margin-right: 8px;
+}
+
+.topbar-section{
+    float: left;
+    border-left: 1px #CCCCCC solid;
+    height: 100%;
+}
+
+#signin-image {
+    width: 25px;
+    margin: 11px 15px;
+    float: left;
+}
+
+#signin-text{
+    font-weight: bold;
+    font-size: 14.5px;
+    position: relative;
+    top: 14px;
+    padding-right: 50px;
+}
+
+#bell-div {
+    float: left;
+}
+
+#wigglyline {
+    float: left;
+    height: 40px;
+}
+#bell {
+    height: 25px;
+    margin: 9px 8px 0 8px;
+}
+.topbar-menu{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 15px 0 15px;
+    height: 27px;
+}
+
+#more-arrow {
+    width: 14px;
+    margin-left: 20px;
+}
+
+#first-section{
+    background-color: rgb(197, 44, 44);
+}
+
+#search-box {
+    background-color: #E4E4E4;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 5px;
+    /* margin: 15px; */
+    margin: 5px 0px 5px 5px;
+    /* display: inline-block;
+    position: absolute; */
+    float: left;
+}
+#search-icon {
+    height: 27px;
+    margin-top: 5px;
+}
+
+/* .topbar-section1.top-search {
+    position: absolute;
+    left: 80%;
+}
+.topbar1-section {
+    float: left;
+    border-left: 1px #CCCCCC solid;
+    height: 43px;
+} */
+
+.clear{
+    clear: both;
+}
+
+#menu-bar-container {
+    border-top: 1px solid #CCCCCC;
+    background-color: #BB1919;
+    width: 100%;
+    /* height: 70px; */
+    height: 59px;
+}
+
+#menu-bar{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+    float: left;
+}
+
+#local-news {
+    border: 1px #BB4545 solid;
+    float: right;
+    width: 250px;
+    padding: 5px 5px 0 10px;
+    margin: 5px 10px 0 0;
+}
+
+#local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    position: relative;
+    top: -8px;
+}
+
+#local-news img{
+    height: 40px;
+    padding: 0px 0px 0px 5px;
+}
+
+#local-news a:hover{
+    text-decoration: underline;
+} 
+
+#menu-bar-2-container {
+background-color: #A91717;
+width: 100%;
+}
+
+#menu-bar-2 {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+
+#menu-bar-2 a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    border-right: 1px #BB4545 solid;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+}
+
+#down-arrow {
+    height: 10px;
+    position: relative;
+    top: 10px;
+}
+
+/* #menu-bar-2 a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 0 10px;
+    border-right: 1px #BB4545 solid;
+    font-size: 12px;
+    position: relative;
+    top: 8px;
+} */
+
+#menu-bar-2 a:hover{
+    text-decoration: underline;
+}
+
+.no-border{
+    border-left: none;
+    padding: 0; 
+}
+
+.no-border{
+    border: none !important;
+}
+
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: normal;
+    /* margin-top: 40px; */
+    margin-top: 12px;
+    font-size: 20px;
+    border-bottom: 2px solid #a91717;
+    width: 105px;
+}
+
+h3 a {
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #1167a8;
+    text-decoration: none;
+}
+
+#article-summary {
+    color: #5a5a5a;
+    width: 250px;
+    float: left;
+}
+
+#column-article-summary {
+    color: #5a5a5a;
+    width: 207px;
+    float: left;
+    padding: 5px 8px;
+}
+
+#seperate-article-image {
+    width: 200px;
+    height: 140px;
+    padding-top: 10px;
+}
+
+
+#article-row{
+    float: left;
+    width: 670px;
+}
+.date{
+    padding-right: 10px;
+    color: #5a5a5a;
+}
+
+#article-summary img{
+    position: relative;
+    top: 2px;
+}
+.topic-link{
+    text-decoration: none !important;
+    color: #a91717;
+    border-left: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.topic-link:hover{
+    color: #1167a8;
+}
+
+#article-cointainer{
+    float: left;
+    width: 670px;
+    border-right: 1px solid #cccccc;
+    /* border-bottom: 1px solid #ccc; */
+    padding-right: 20px;
+}
+#main-article-image{
+    width: 400px;
+    margin-left: 20px;
+}
+ 
+#article-hr{
+    border-top: 1px solid #a91717;
+    width: 50px;
+}
+
+.article-link{
+    color: #000;
+    text-decoration: none !important;
+}
+.article-link:hover{
+    color: #1167a8;
+    text-decoration: underline;
+}
+
+
+#watch-listen {
+    margin-left: 20px;
+    width: 280px;
+    float: right;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.article-side-image{
+    float:left;
+    width: 90px;
+    margin-right: 10px;
+}
+
+.watch-listen-link a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 18px;
+}
+.watch-listen-link a:hover {
+    color: #1167a8;
+}
+
+.clock{
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+
+.side-article{
+    float: right;
+    width: 180px;
+    position: relative;
+    top: -15px;
+}
+
+.no-border{
+    border-left: none;
+    padding: 0;
+}
+
+.border-right{
+    border-right: 1px solid #cccccc;
+}
+.display-border{
+    border-bottom: 2px solid #BB1919 ;
+    padding-bottom: 5px;
+    width: 300px;
+}
+
+
+
+
+
+.detail{
+    font-weight: 600;
+    color: #000;
+}
+
+#second-section{
+    padding-top: 20px;
+}
+
+#third-section{
+    background-color: #fff;
+    width: 500px;
+    position: relative;
+    z-index: 1;
+    top: 104px;
+    left: 492px;
+}
+
+#third-section p{
+padding-left: 20px;
+}
+
+#fourth-section{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    position: relative;
+    z-index: 2;
+    font-size: 20px;
+    color: #fff !important;
+}
+
+#fifth-section{
+    padding-top: 10px;
+}
+
+#block-one{
+    background-color: rgb(197, 53, 53);
+    border: 10px #000 solid;
+}
+#block-two{
+    background-color: rgb(0, 0, 0);
+    border: 10px rgb(197, 67, 67) solid;
+}
+#block-three{
+    background-color: blueviolet;
+    border: 10px rgb(0, 0, 0) solid;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+    float: left;
+}
+
+.par-section{
+    text-align: center;
+    padding: 50px;
+}
+
+#align-section{
+    margin-top: 300px;
+    background-color: rgb(255, 255, 255);
+    /* height: 500px; */
+    width: 500px;
+}

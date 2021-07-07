@@ -1,0 +1,98 @@
+<html>
+
+    <head>
+        <title>JQuery</title>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <style type="text/css">
+
+            #round-circle{
+                width: 150px;
+                height: 150px;
+                background-color: blueviolet;
+                border-radius: 50%;
+            }
+
+            .square{
+                width: 150px;
+                height: 150px;
+                background-color:darkgreen;
+            }
+            .square-two{
+                width: 150px;
+                height: 150px;
+                background-color:darkred;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="round-circle"></div>
+        <p>This is a single circle</p>
+        <br>
+        <div class="square"></div>
+        <p>This is a square circle</p>
+        <button id="squared">faded</button>
+        <div class="square-two"></div>
+        <p>This is a square circle</p>
+        
+
+
+        <script type="text/javascript">
+
+                // var regex = /is/;
+
+                // var string = "Regex is great!";
+
+                // var result = string.match(regex);
+
+                // alert(result);
+
+        $("#round-circle").click(function() {
+            $(this).animate({
+                width:"400px",
+                height: "400px",
+                marginLeft: "930px",
+                marginTop: "100px",
+            }, 2000, function(){
+                $(this).css("background-color", "rgb(46, 49, 199)");
+            });
+        });
+
+                   $("div").click(function(){
+                    $(this).fadeOut("slow", function() {
+                        alert("It has been Faded")
+                    });
+                   });
+
+         $("div").click(function(){
+
+            if($(this).attr("id")== "round-circle") {
+                alert("You clicked on a circle");
+            
+            }else {
+                alert("you clicked on a square")
+            }
+
+          });
+
+                $("div").click(function(){
+                    
+                  alert($(this).css("display", "none"));
+                });
+
+        </script>
+
+        
+        <!-- // Testing if JQuery is installed 
+
+        // if(typeof jQuery == "undefined") {
+        //     alert("jQuery is not installed!");
+        // } else {
+        //     alert("jQuery is installed correctly");
+        // } -->
+
+    </body>
+</html>
+

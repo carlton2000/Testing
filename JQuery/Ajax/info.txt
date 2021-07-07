@@ -1,0 +1,1 @@
+This is small text that displays when your folder inside the ajax is correct

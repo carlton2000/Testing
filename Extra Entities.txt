@@ -1,0 +1,14 @@
+HTML Revision Links
+
+
+https://www.w3schools.com/html/html_entities.asp
+
+1. Putting it all together Project 
+
+2. Javascript Project, Reaction Tester 
+
+3. Ajax & Regualr Expressions  
+
+4. Draggables & Reziables, Droppables
+
+5. Accordion & Sortables

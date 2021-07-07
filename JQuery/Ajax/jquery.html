@@ -1,0 +1,25 @@
+<html>
+
+    <head>
+        <title>JQuery</title>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="jquery.min.js"></script>
+    </head>
+
+    <body>
+        <p></p>
+        <script type="text/javascript">
+
+            $.ajax("info.txt")
+                .done(function(data) {
+                    $("p").html(data);
+                })
+                .fail(function() {
+                    alert("could not get data");
+                });
+
+        </script>
+
+    </body>
+</html>
+
